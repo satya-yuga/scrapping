@@ -1,0 +1,32 @@
+#list_of_products{
+	width: calc(100% - 800px);
+	padding: 20px;
+	position: absolute;
+	top: 90px;
+	left: 350px;
+	background: #F0F0F0;
+	height: calc(100% - 90px);
+	overflow-y: scroll;
+}
+.table{
+	width: 100%;
+}
+#best_cart{
+	width:450px;
+	padding: 10px;
+	position: absolute;
+	top: 90px;
+	right: 0;
+	height: calc(100% - 90px);
+	background:#e1e1e170;
+}
+#table_cart, #table_total{
+	width: 100%;
+}
+#table_total td{
+	text-align: center;
+}
+.item_cart_qty{
+	width: 50px !important;
+	min-width: 50px;
+}
